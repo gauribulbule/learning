@@ -1,0 +1,48 @@
+package com.objectclassmethods;
+
+public class EqualsAndHashCodeExample {
+
+	public static void main(String[] args) throws Exception {
+		// TODO Auto-generated method stub
+//		Employee emp1 = new Employee(1, "Raj");
+//		Employee emp2 = new Employee(1, "Raj");
+//		Employee emp3 = emp1;
+//		
+//		Employee emp4 = new Employee(2, "Ravi");
+//		Employee emp5 = new Employee(2, "Ravi");
+//		Employee emp6 = emp4;
+//		
+//		System.out.println(emp1.hashCode());
+//		System.out.println(emp2.hashCode());
+//		System.out.println(emp3.hashCode());
+//		System.out.println(emp4.hashCode());
+//		System.out.println(emp5.hashCode());
+//		System.out.println(emp6.hashCode());
+//		System.out.println(emp1.equals(emp2));
+//		System.out.println(emp1.equals(emp3));
+//		
+//		System.out.println(emp1);
+		
+//		Employee emp1 = new Employee(1, "Raj");
+//		Employee emp2 = new Employee(1, "Raj");
+//			Employee emp3 = emp1;		// Deep copy 
+//		System.out.println(emp1);
+//		System.out.println(emp3);
+//		emp1.setName("Raj Deep");
+//		System.out.println(emp1);
+//		System.out.println(emp3);
+//		Employee emp4 = new Employee(2, "Ajay");
+//		System.out.println(emp4);
+//		Employee emp5 = (Employee)emp4.clone();	// Shallow copy : copies only value not reference. 
+//		System.out.println(emp5);
+//		emp5.setName("Ajay Kumar");
+//		System.out.println(emp4);
+//		System.out.println(emp5);
+		Employee emp1 = new Employee(10, "Raj");
+		System.out.println(emp1);
+		emp1 = null; 
+		System.gc();
+		System.out.println("Normal code"); 
+	}
+
+}

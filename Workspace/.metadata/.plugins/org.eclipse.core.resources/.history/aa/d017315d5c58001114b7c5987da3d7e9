@@ -1,0 +1,10 @@
+package com.objectclassmethods;
+
+public class EqualsAndHashCodeExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
