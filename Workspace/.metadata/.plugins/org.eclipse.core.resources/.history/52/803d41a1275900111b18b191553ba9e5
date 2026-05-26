@@ -1,0 +1,15 @@
+package com.block;
+class Parent {
+	
+}
+class Child extends Parent {
+	
+}
+public class AppDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
