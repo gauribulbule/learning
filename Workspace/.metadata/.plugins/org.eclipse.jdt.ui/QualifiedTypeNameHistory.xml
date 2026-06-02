@@ -7,9 +7,11 @@
     <fullyQualifiedTypeName name="javax.annotation.processing.SupportedSourceVersion"/>
     <fullyQualifiedTypeName name="com.polymoprhism.Operation"/>
     <fullyQualifiedTypeName name="com.inheritance.Server"/>
-    <fullyQualifiedTypeName name="java.lang.Cloneable"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="com.objectclassmethods.Employee"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="com.block.Child"/>
+    <fullyQualifiedTypeName name="java.lang.Cloneable"/>
+    <fullyQualifiedTypeName name="education.school.Attendance"/>
+    <fullyQualifiedTypeName name="com.bean.Employee"/>
 </qualifiedTypeNameHistroy>
