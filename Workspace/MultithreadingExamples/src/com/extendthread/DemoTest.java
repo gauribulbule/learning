@@ -30,7 +30,9 @@ public class DemoTest {
 		obj1.setPriority(10);
 		obj2.setPriority(1);
 		obj1.start();
+		//obj1.run();
 		obj2.start();     // thread is ready to run : Runnable state. 
+		obj1.start();
 	}
 
 }
