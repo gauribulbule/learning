@@ -27,7 +27,6 @@
     <fullyQualifiedTypeName name="java.lang.Runtime"/>
     <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
     <fullyQualifiedTypeName name="com.myexception.ApplicationException"/>
-    <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="com.myexception.AmountWithdrawnException"/>
     <fullyQualifiedTypeName name="com.myexception.BusinessException"/>
     <fullyQualifiedTypeName name="java.lang.ThreadGroup"/>
@@ -35,5 +34,11 @@
     <fullyQualifiedTypeName name="com.extendthread.MyThread2"/>
     <fullyQualifiedTypeName name="com.implementrunnable.MyThread1"/>
     <fullyQualifiedTypeName name="com.implementrunnable.MyThread2"/>
+    <fullyQualifiedTypeName name="com.synchronizationexample.BookingApp"/>
+    <fullyQualifiedTypeName name="com.waitandnotify.SharedData"/>
+    <fullyQualifiedTypeName name="com.waitandnotify.Producer"/>
+    <fullyQualifiedTypeName name="com.waitandnotify.Consumer"/>
     <fullyQualifiedTypeName name="java.lang.Runnable"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.locks.ReentrantLock"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
 </qualifiedTypeNameHistroy>

@@ -13,6 +13,7 @@ class Task implements Runnable {
 					wait();
 				}
 				if(i==6 && name.equals("Ajay")) {
+					
 					notify();
 					wait();
 					notify();
