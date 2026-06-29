@@ -1,9 +1,10 @@
 package com.locking;
 
+import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 class Task implements Runnable {
-	
+	Lock ll = new ReentrantLock(true);
 	ReentrantLock lock1 = new ReentrantLock();
 	ReentrantLock lock2 = new ReentrantLock();
 	@Override
